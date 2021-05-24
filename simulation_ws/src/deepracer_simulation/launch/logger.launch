@@ -1,0 +1,3 @@
+<launch>
+      <node pkg="deepracer_simulation" type="logger.py" name="logger" output="screen"/>
+</launch>
