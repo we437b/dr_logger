@@ -24,6 +24,7 @@ install(PROGRAMS
     scripts/run_local_rl_agent.sh
     scripts/run_rollout_rl_agent.sh
     scripts/run_evaluation_rl_agent.sh
+    scripts/key_control.py
     DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
