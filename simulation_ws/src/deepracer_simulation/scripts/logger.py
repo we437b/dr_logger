@@ -36,7 +36,7 @@ def clockCallBack(data):
 def callback(data):
     f = open("/home/inspace/Documents/log.txt", "a")
     psidot = psidot_func(data.pose[0].orientation.w, data.pose[1].orientation.x, data.pose[1].orientation.y, data.pose[1].orientation.z)
-    f.write(str(sec) + ", "+ str(data.pose[1].position.x)+", "+str(data.pose[1].position.y)+", "+str(psidot[0])+", "+str(psidot[1])+", "+str(psidot[2])+", "+str(data.twist[1].linear.x)+", "+str(data.twist[1].linear.y)+", "+str(data.twist[1].angular.z)+"\n")
+    f.write(str(round(sec,3)) + ", "+ str(data.pose[1].position.x)+", "+str(data.pose[1].position.y)+", "+str(psidot[0])+", "+str(psidot[1])+", "+str(psidot[2])+", "+str(data.twist[1].linear.x)+", "+str(data.twist[1].linear.y)+", "+str(data.twist[1].angular.z)+"\n")
     f.close()
 
 def logger():
