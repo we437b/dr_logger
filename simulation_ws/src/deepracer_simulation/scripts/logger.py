@@ -3,8 +3,9 @@ import rospy
 import numpy as np
 from gazebo_msgs.msg import ModelStates
 from geometry_msgs.msg import Quaternion, Point, Vector3
+from rosgraph_msgs.msg import Clock
 
-counter = 0
+sec = 0.0
 
 def psidot_func(w, x, y, z):
     ysqr = y * y
@@ -25,16 +26,22 @@ def psidot_func(w, x, y, z):
 
     return X, Y, Z 
 
+def clockCallBack(data):
+    f = open("/home/inspace/Documents/log.txt", "a")
+    second = data.clock.to_sec()
+    global sec 
+    sec = second
+    f.close()
+
 def callback(data):
     f = open("/home/inspace/Documents/log.txt", "a")
     psidot = psidot_func(data.pose[0].orientation.w, data.pose[1].orientation.x, data.pose[1].orientation.y, data.pose[1].orientation.z)
-    global counter 
-    f.write(str(float(counter*0.001)) + ", " + str(data.pose[1].position.x)+", "+str(data.pose[1].position.y)+", "+str(psidot[0])+", "+str(psidot[1])+", "+str(psidot[2])+", "+str(data.twist[1].linear.x)+", "+str(data.twist[1].linear.y)+", "+str(data.twist[1].angular.z)+"\n")
-    counter = counter + 1
+    f.write(str(sec) + ", "+ str(data.pose[1].position.x)+", "+str(data.pose[1].position.y)+", "+str(psidot[0])+", "+str(psidot[1])+", "+str(psidot[2])+", "+str(data.twist[1].linear.x)+", "+str(data.twist[1].linear.y)+", "+str(data.twist[1].angular.z)+"\n")
     f.close()
 
 def logger():
     rospy.init_node('logger')
+    rospy.Subscriber('clock', Clock, clockCallBack)
     rospy.Subscriber("gazebo/model_states", ModelStates, callback)
     rospy.spin()
 
