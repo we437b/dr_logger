@@ -15,6 +15,7 @@ import sys
 import select
 import termios
 import tty
+import numpy as np
 
 from ackermann_msgs.msg import AckermannDriveStamped
 # hj : AckermannDriveStamped is parent message of AckermanDrive 
@@ -26,8 +27,8 @@ keyBindings = {'w':(1.0,  0.0),  # move forward
                's':(-1.0, 0.0), # move reverse
                'q':(0.0,  0.0)}  # all stop
 
-speed_limit = 0.250 # <- Change this value to control car's maximum speed
-angle_limit = 0.325
+speed_limit = 1 # <- Change this value to control car's maximum speed
+angle_limit = np.deg2rad(20)
 # hj : i searched other explanation of this getkey but they said just type...
 # the answer what i saw was.. for unix system we should write these types
 def getKey():
@@ -63,8 +64,8 @@ if __name__== '__main__':
   # the message changed to line 34 value
   rospy.init_node('key_control', anonymous = True)
     # node name :key_control
-  speed  = 0.2 # <- Change this value to control car speed
-  angle  = 0.01
+  speed  = 0.6 # <- Change this value to control car speed
+  angle  = 0.9
   status = 0.0
 
   try:
