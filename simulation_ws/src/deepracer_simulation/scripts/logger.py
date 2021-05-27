@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 import rospy
 import numpy as np
+import datetime
 from gazebo_msgs.msg import ModelStates
 from geometry_msgs.msg import Quaternion, Point, Vector3
 from rosgraph_msgs.msg import Clock
 from ackermann_msgs.msg import AckermannDriveStamped
 
+dataim = str(datetime.datetime.now())
 sec = 0.0
 prev = -1.0
 command = AckermannDriveStamped()
@@ -43,12 +45,13 @@ def ackCallBack(data):
     
 
 def callback(data):
+    global dataim
     global sec
     global prev
     tempsec = int(sec * 100)
     tempprev = int(prev * 100)
     if (tempsec != tempprev):
-        f = open("/home/inspace/Documents/log.txt", "a")
+        f = open("/home/inspacehj/dr_logger/simulation_ws/src/deepracer_simulation/logs/"+dataim+".txt", "a")
         psidot = psidot_func(data.pose[0].orientation.w, data.pose[1].orientation.x, data.pose[1].orientation.y, data.pose[1].orientation.z)
         f.write(str(round(sec,2)) + ", "+ str(data.pose[1].position.x)+", "+str(data.pose[1].position.y)+", "+str(psidot[0])+", "+str(psidot[1])+", "+str(psidot[2])+", "+str(data.twist[1].linear.x)+", "+str(data.twist[1].linear.y)+", "+str(data.twist[1].angular.z)+", "+str(command.drive.speed)+", "+str(command.drive.steering_angle)+"\n")
         f.close()
@@ -62,7 +65,7 @@ def logger():
     rospy.spin()
 
 if __name__ == '__main__':
-    f = open("/home/inspace/Documents/log.txt", "w+")
+    f = open("/home/inspacehj/dr_logger/simulation_ws/src/deepracer_simulation/logs/"+dataim+".txt", "w+")
     f.write("in order time, x, y, psix, psiy, psiz, xdot, ydot, psidot\n")
     f.close()
     logger()
