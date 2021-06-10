@@ -1,0 +1,8 @@
+prefix=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_interpreter
+
+Name: deepracer_interpreter
+Description: Description of deepracer_interpreter
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

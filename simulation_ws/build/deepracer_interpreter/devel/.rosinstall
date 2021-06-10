@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter/devel/setup.sh

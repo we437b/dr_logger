@@ -1,0 +1,8 @@
+prefix=/home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation/devel
+
+Name: deepracer_simulation
+Description: Description of deepracer_simulation
+Version: 1.2.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

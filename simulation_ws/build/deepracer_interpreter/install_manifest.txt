@@ -1,0 +1,5 @@
+/home/inspacehj/dr_logger/simulation_ws/install/deepracer_interpreter/lib/pkgconfig/deepracer_interpreter.pc
+/home/inspacehj/dr_logger/simulation_ws/install/deepracer_interpreter/share/deepracer_interpreter/cmake/deepracer_interpreterConfig.cmake
+/home/inspacehj/dr_logger/simulation_ws/install/deepracer_interpreter/share/deepracer_interpreter/cmake/deepracer_interpreterConfig-version.cmake
+/home/inspacehj/dr_logger/simulation_ws/install/deepracer_interpreter/share/deepracer_interpreter/package.xml
+/home/inspacehj/dr_logger/simulation_ws/install/deepracer_interpreter/lib/libracecar_plugin.so
