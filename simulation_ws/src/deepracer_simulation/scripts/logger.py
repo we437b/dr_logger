@@ -64,10 +64,10 @@ def callback(data):
     if (tempsec != tempprev):
         f = open("/home/inspace/dr_logger/simulation_ws/src/deepracer_simulation/logs/"+dataim+".txt", "a")
         psidot = psidot_func(data.pose[0].orientation.w, data.pose[1].orientation.x, data.pose[1].orientation.y, data.pose[1].orientation.z)
-        f.write(str(round(sec,math.log10(timeval))) + ", "+ str(data.pose[1].position.x)+", "+str(data.pose[1].position.y)+", "+str(psidot[2])+", "+str(data.twist[1].linear.x)+", "+str(data.twist[1].linear.y)+", "+str(data.twist[1].angular.z)+", "+str(command.drive.speed)+", "+str(command.drive.steering_angle)+"\n")
+        f.write(str(round(sec,int(math.log10(timeval)))) + ", "+ str(data.pose[1].position.x)+", "+str(data.pose[1].position.y)+", "+str(psidot[2])+", "+str(data.twist[1].linear.x)+", "+str(data.twist[1].linear.y)+", "+str(data.twist[1].angular.z)+", "+str(command.drive.speed)+", "+str(command.drive.steering_angle)+"\n")
         f.close()
         f = open("/home/inspace/dr_logger/simulation_ws/src/deepracer_simulation/logs/"+dataim+"_U.txt", "a")
-        f.write(str(round(sec,math.log10(timeval))) + " " + str(delta_speed)+" "+str(delta_steering)+"\n")
+        f.write(str(round(sec,int(math.log10(timeval)))) + ", " + str(delta_speed)+", "+str(delta_steering)+"\n")
         f.close()
         delta_speed = 0.0
         delta_steering = 0.0
@@ -82,6 +82,9 @@ def logger():
 
 if __name__ == '__main__':
     f = open("/home/inspace/dr_logger/simulation_ws/src/deepracer_simulation/logs/"+dataim+".txt", "w+")
-    f.write("in order time, x, y, psiz, xdot, ydot, psidot, speed, steering, deltaspeed, deltasteering\n")
+    f.write("in order time, x, y, psiz, xdot, ydot, psidot, speed, steering \n")
+    f.close()
+    f = open("/home/inspace/dr_logger/simulation_ws/src/deepracer_simulation/logs/"+dataim+"_U.txt", "a")
+    f.write("in order time, deltaspeed, deltasteering \n")
     f.close()
     logger()
