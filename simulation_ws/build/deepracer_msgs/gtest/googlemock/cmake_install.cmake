@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/gtest/googlemock/gtest/cmake_install.cmake")
+  include("/home/inspacer_logger/simulation_ws/build/deepracer_msgs/gtest/googlemock/gtest/cmake_install.cmake")
 
 endif()
 

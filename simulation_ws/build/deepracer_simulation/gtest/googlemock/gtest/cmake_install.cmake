@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation")
+  set(CMAKE_INSTALL_PREFIX "/home/inspace/dr_logger/simulation_ws/install/deepracer_simulation")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

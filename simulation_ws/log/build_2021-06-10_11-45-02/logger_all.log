@@ -1,0 +1,157 @@
+[0.262s] DEBUG:colcon:Command line arguments: ['/home/inspace/.pyenv/versions/3.9.5/bin/colcon', 'build']
+[0.263s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f198a9ca8b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f198a9ca8b0>>)
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.275s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/inspace/dr_logger/simulation_ws'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepracer_interpreter) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepracer_interpreter) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepracer_interpreter) by extension 'ignore_ament_install'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepracer_interpreter) by extensions ['ros']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepracer_interpreter) by extension 'ros'
+[0.295s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deepracer_interpreter' with type 'ros.catkin' and name 'deepracer_interpreter'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepracer_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepracer_msgs) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepracer_msgs) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepracer_msgs) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepracer_msgs) by extension 'ros'
+[0.295s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deepracer_msgs' with type 'ros.catkin' and name 'deepracer_msgs'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepracer_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepracer_simulation) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepracer_simulation) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepracer_simulation) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepracer_simulation) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deepracer_simulation' with type 'ros.catkin' and name 'deepracer_simulation'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/sagemaker_rl_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/sagemaker_rl_agent) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/sagemaker_rl_agent) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/sagemaker_rl_agent) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/sagemaker_rl_agent) by extension 'ros'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/sagemaker_rl_agent) by extensions ['cmake', 'python']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/sagemaker_rl_agent) by extension 'cmake'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/sagemaker_rl_agent) by extension 'python'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/sagemaker_rl_agent) by extensions ['python_setup_py']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/sagemaker_rl_agent) by extension 'python_setup_py'
+[0.473s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sagemaker_rl_agent' with type 'python' and name 'sagemaker_rl_agent'
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'deepracer_msgs' build argument 'cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'deepracer_msgs' build argument 'cmake_target' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'deepracer_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'deepracer_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'deepracer_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'deepracer_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'deepracer_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'deepracer_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'deepracer_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.506s] DEBUG:colcon.colcon_core.verb:Building package 'deepracer_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/inspace/dr_logger/simulation_ws/build/deepracer_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs', 'merge_install': False, 'path': '/home/inspace/dr_logger/simulation_ws/src/deepracer_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'deepracer_simulation' build argument 'cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'deepracer_simulation' build argument 'cmake_target' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'deepracer_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'deepracer_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'deepracer_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'deepracer_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'deepracer_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'deepracer_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'deepracer_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.516s] DEBUG:colcon.colcon_core.verb:Building package 'deepracer_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/inspace/dr_logger/simulation_ws/build/deepracer_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/inspace/dr_logger/simulation_ws/install/deepracer_simulation', 'merge_install': False, 'path': '/home/inspace/dr_logger/simulation_ws/src/deepracer_simulation', 'symlink_install': False, 'test_result_base': None}
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'sagemaker_rl_agent' build argument 'cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'sagemaker_rl_agent' build argument 'cmake_target' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'sagemaker_rl_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'sagemaker_rl_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'sagemaker_rl_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'sagemaker_rl_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'sagemaker_rl_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'sagemaker_rl_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'sagemaker_rl_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.525s] DEBUG:colcon.colcon_core.verb:Building package 'sagemaker_rl_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/inspace/dr_logger/simulation_ws/build/sagemaker_rl_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/inspace/dr_logger/simulation_ws/install/sagemaker_rl_agent', 'merge_install': False, 'path': '/home/inspace/dr_logger/simulation_ws/src/sagemaker_rl_agent', 'symlink_install': False, 'test_result_base': None}
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'deepracer_interpreter' build argument 'cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'deepracer_interpreter' build argument 'cmake_target' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'deepracer_interpreter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'deepracer_interpreter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'deepracer_interpreter' build argument 'cmake_clean_first' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'deepracer_interpreter' build argument 'cmake_force_configure' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'deepracer_interpreter' build argument 'ament_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'deepracer_interpreter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'deepracer_interpreter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.535s] DEBUG:colcon.colcon_core.verb:Building package 'deepracer_interpreter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/inspace/dr_logger/simulation_ws/build/deepracer_interpreter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/inspace/dr_logger/simulation_ws/install/deepracer_interpreter', 'merge_install': False, 'path': '/home/inspace/dr_logger/simulation_ws/src/deepracer_interpreter', 'symlink_install': False, 'test_result_base': None}
+[0.536s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.540s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'deepracer_msgs'
+[0.540s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/inspace/dr_logger/simulation_ws/src/deepracer_msgs' with build type 'catkin'
+[0.541s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/inspace/dr_logger/simulation_ws/src/deepracer_msgs'
+[0.548s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.554s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/inspace/catkin_ws/devel'
+[0.554s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[0.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/inspace/dr_logger/simulation_ws/build/deepracer_msgs': /usr/bin/cmake --build /home/inspace/dr_logger/simulation_ws/build/deepracer_msgs -- -j12 -l12
+[0.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/inspace/dr_logger/simulation_ws/build/deepracer_msgs' returned '2': /usr/bin/cmake --build /home/inspace/dr_logger/simulation_ws/build/deepracer_msgs -- -j12 -l12
+[0.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('deepracer_msgs', 'ros_package_path')
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/hook/ros_package_path.dsv'
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/hook/ros_package_path.sh'
+[0.618s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages'
+[0.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('deepracer_msgs', 'catkin_pythonpath')
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/hook/catkin_pythonpath.dsv'
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/hook/catkin_pythonpath.sh'
+[0.622s] Level 1:colcon.colcon_core.shell:create_environment_hook('deepracer_msgs', 'pkg_config_path')
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/hook/pkg_config_path.dsv'
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/hook/pkg_config_path.sh'
+[0.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('deepracer_msgs', 'pkg_config_path_multiarch')
+[0.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/hook/pkg_config_path_multiarch.dsv'
+[0.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/hook/pkg_config_path_multiarch.sh'
+[0.638s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deepracer_msgs)
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs' for CMake module files
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs' for CMake config files
+[0.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('deepracer_msgs', 'cmake_prefix_path')
+[0.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/hook/cmake_prefix_path.dsv'
+[0.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/hook/cmake_prefix_path.sh'
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs/lib'
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs/bin'
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs/lib/pkgconfig/deepracer_msgs.pc'
+[0.653s] Level 1:colcon.colcon_core.shell:create_environment_hook('deepracer_msgs', 'pkg_config')
+[0.657s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/hook/pkg_config.dsv'
+[0.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/hook/pkg_config.sh'
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs/lib/python3.9/site-packages'
+[0.662s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/package.dsv'
+[0.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/package.sh'
+[0.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/package.bash'
+[0.664s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs/share/colcon-core/packages/deepracer_msgs)
+[0.664s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'deepracer_msgs' finished with '2'
+[0.664s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[0.664s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[0.664s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.665s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.669s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/inspace/dr_logger/simulation_ws/install/local_setup.sh'
+[0.669s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/inspace/dr_logger/simulation_ws/install/_local_setup_util_sh.py'
+[0.670s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/inspace/dr_logger/simulation_ws/install/setup.sh'
+[0.676s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/inspace/dr_logger/simulation_ws/install/local_setup.bash'
+[0.676s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/inspace/dr_logger/simulation_ws/install/setup.bash'

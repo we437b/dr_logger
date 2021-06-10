@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/inspacehj/dr_logger/simulation_ws/src/deepracer_interpreter/src/racecar_plugin.cc" "/home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter/CMakeFiles/racecar_plugin.dir/src/racecar_plugin.cc.o"
+  "/home/inspace/dr_logger/simulation_ws/src/deepracer_interpreter/src/racecar_plugin.cc" "/home/inspace/dr_logger/simulation_ws/build/deepracer_interpreter/CMakeFiles/racecar_plugin.dir/src/racecar_plugin.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,7 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/include"
+  "/home/inspacer_logger/simulation_ws/install/deepracer_msgs/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/gazebo-9"

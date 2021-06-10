@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/inspacehj/dr_logger/simulation_ws/src/deepracer_interpreter
+CMAKE_SOURCE_DIR = /home/inspace/dr_logger/simulation_ws/src/deepracer_interpreter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter
+CMAKE_BINARY_DIR = /home/inspace/dr_logger/simulation_ws/build/deepracer_interpreter
 
 # Utility rule file for std_srvs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/std_srvs_generate_messages_nodejs.dir/depend:
-	cd /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/inspacehj/dr_logger/simulation_ws/src/deepracer_interpreter /home/inspacehj/dr_logger/simulation_ws/src/deepracer_interpreter /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter/CMakeFiles/std_srvs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/inspace/dr_logger/simulation_ws/build/deepracer_interpreter && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/inspace/dr_logger/simulation_ws/src/deepracer_interpreter /home/inspace/dr_logger/simulation_ws/src/deepracer_interpreter /home/inspace/dr_logger/simulation_ws/build/deepracer_interpreter /home/inspace/dr_logger/simulation_ws/build/deepracer_interpreter /home/inspace/dr_logger/simulation_ws/build/deepracer_interpreter/CMakeFiles/std_srvs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_srvs_generate_messages_nodejs.dir/depend
 

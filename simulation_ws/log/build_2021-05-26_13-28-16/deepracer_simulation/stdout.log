@@ -12,16 +12,16 @@
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Using CATKIN_DEVEL_PREFIX: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation/devel
--- Using CMAKE_PREFIX_PATH: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation;/home/inspacehj/dr_logger/simulation_ws/install/deepracer_interpreter;/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs;/home/inspacehj/drone_mpc_ws/devel/.private/catkin_tools_prebuild;/home/inspacehj/drone_ws/devel/.private/catkin_tools_prebuild;/home/inspacehj/drone_mpc_ws/devel;/home/inspacehj/autosim_ws/devel;/home/inspacehj/catkin_ws/devel;/home/inspacehj/drone_ws/devel;/opt/ros/melodic
--- This workspace overlays: /home/inspacehj/drone_mpc_ws/devel/.private/catkin_tools_prebuild;/home/inspacehj/drone_ws/devel/.private/catkin_tools_prebuild;/home/inspacehj/drone_mpc_ws/devel;/home/inspacehj/autosim_ws/devel;/home/inspacehj/catkin_ws/devel;/home/inspacehj/drone_ws/devel;/opt/ros/melodic
+-- Using CATKIN_DEVEL_PREFIX: /home/inspace/dr_logger/simulation_ws/build/deepracer_simulation/devel
+-- Using CMAKE_PREFIX_PATH: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation;/home/inspace/dr_logger/simulation_ws/install/deepracer_interpreter;/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs;/home/inspace/drone_mpc_ws/devel/.private/catkin_tools_prebuild;/home/inspace/drone_ws/devel/.private/catkin_tools_prebuild;/home/inspace/drone_mpc_ws/devel;/home/inspace/autosim_ws/devel;/home/inspace/catkin_ws/devel;/home/inspace/drone_ws/devel;/opt/ros/melodic
+-- This workspace overlays: /home/inspace/drone_mpc_ws/devel/.private/catkin_tools_prebuild;/home/inspace/drone_ws/devel/.private/catkin_tools_prebuild;/home/inspace/drone_mpc_ws/devel;/home/inspace/autosim_ws/devel;/home/inspace/catkin_ws/devel;/home/inspace/drone_ws/devel;/opt/ros/melodic
 -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python2
 -- Using Debian Python package layout
 -- Using empy: /usr/bin/empy
 -- Using CATKIN_ENABLE_TESTING: ON
 -- Call enable_testing()
--- Using CATKIN_TEST_RESULTS_DIR: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation/test_results
+-- Using CATKIN_TEST_RESULTS_DIR: /home/inspace/dr_logger/simulation_ws/build/deepracer_simulation/test_results
 -- Found gtest sources under '/usr/src/googletest': gtests will be built
 -- Found gmock sources under '/usr/src/googletest': gmock will be built
 -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
@@ -40,93 +40,93 @@
 -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation
+-- Build files have been written to: /home/inspace/dr_logger/simulation_ws/build/deepracer_simulation
 [35m[1mScanning dependencies of target tests[0m
 Built target tests
 [36mInstall the project...[0m
 -- Install configuration: ""
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/pkgconfig/deepracer_simulation.pc
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/cmake/deepracer_simulationConfig.cmake
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/cmake/deepracer_simulationConfig-version.cmake
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/package.xml
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/servo_commands.py
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/run_local_rl_agent.sh
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/run_rollout_rl_agent.sh
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/run_evaluation_rl_agent.sh
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/key_control.py
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/logger.py
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/racecar_control.launch
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/distributed_training.launch
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/racetrack_with_racecar.launch
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/local_training.launch
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/racecar.launch
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/logger.launch
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/evaluation.launch
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/config
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/config/racecar_control.yaml
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/boundary_lines.png
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_steering_hinge.dae
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/cone.dae
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/CarAO.jpg
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hokuyo.dae
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/Track3_and_Wall.dae
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/SolidLine_DIFF.png
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/Astroturf_Gray_DIFF.png
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/Grass_DIFF.png
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/walls.jpg
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/Track3_and_wall.blend
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/DashedLine_DIFF.png
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_front_wheel.dae
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_steering_hinge.STL
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_front_wheel.dae
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/aws_DIFF.jpg
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_rear_wheel.STL
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/medium_track
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/medium_track/scripts
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/medium_track/scripts/medium_track.material
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/medium_track/textures
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/medium_track/textures/medium_track.png
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/polymsh_detached4.jpg
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_rear_wheel.dae
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_front_wheel.STL
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/parking_1.dae
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/racetrack.world
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/center_line.png
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/chassis.dae
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/baseboard_checkers.jpg
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_rear_wheel.STL
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_rear_wheel.dae
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_front_wheel.STL
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_steering_hinge.STL
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/easy_track
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/easy_track/scripts
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/easy_track/scripts/easy_track.material
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/easy_track/textures
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/easy_track/textures/easy_track.jpg
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/checkers_DIFF.jpg
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/chassis.STL
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/ground_plane_tex.png
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_steering_hinge.dae
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/Polygon.jpg
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/hard_track
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/hard_track/model.sdf
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/hard_track/model.config
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/medium_track
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/medium_track/model.sdf
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/medium_track/model.config
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/easy_track
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/easy_track/model.sdf
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/easy_track/model.config
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/urdf
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/urdf/materials.xacro
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/urdf/racecar.gazebo
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/urdf/racecar.xacro
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/urdf/macros.xacro
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/worlds
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/worlds/hard_track.world
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/worlds/medium_track.world
--- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/worlds/easy_track.world
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/lib/pkgconfig/deepracer_simulation.pc
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/cmake/deepracer_simulationConfig.cmake
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/cmake/deepracer_simulationConfig-version.cmake
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/package.xml
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/servo_commands.py
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/run_local_rl_agent.sh
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/run_rollout_rl_agent.sh
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/run_evaluation_rl_agent.sh
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/key_control.py
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/logger.py
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/racecar_control.launch
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/distributed_training.launch
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/racetrack_with_racecar.launch
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/local_training.launch
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/racecar.launch
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/logger.launch
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/evaluation.launch
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/config
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/config/racecar_control.yaml
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/boundary_lines.png
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_steering_hinge.dae
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/cone.dae
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/CarAO.jpg
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hokuyo.dae
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/Track3_and_Wall.dae
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/SolidLine_DIFF.png
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/Astroturf_Gray_DIFF.png
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/Grass_DIFF.png
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/walls.jpg
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/Track3_and_wall.blend
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/DashedLine_DIFF.png
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_front_wheel.dae
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_steering_hinge.STL
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_front_wheel.dae
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/aws_DIFF.jpg
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_rear_wheel.STL
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/medium_track
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/medium_track/scripts
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/medium_track/scripts/medium_track.material
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/medium_track/textures
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/medium_track/textures/medium_track.png
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/polymsh_detached4.jpg
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_rear_wheel.dae
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_front_wheel.STL
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/parking_1.dae
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/racetrack.world
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/center_line.png
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/chassis.dae
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/baseboard_checkers.jpg
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_rear_wheel.STL
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_rear_wheel.dae
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_front_wheel.STL
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_steering_hinge.STL
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/easy_track
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/easy_track/scripts
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/easy_track/scripts/easy_track.material
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/easy_track/textures
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/easy_track/textures/easy_track.jpg
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/checkers_DIFF.jpg
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/chassis.STL
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/ground_plane_tex.png
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_steering_hinge.dae
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/Polygon.jpg
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/hard_track
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/hard_track/model.sdf
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/hard_track/model.config
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/medium_track
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/medium_track/model.sdf
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/medium_track/model.config
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/easy_track
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/easy_track/model.sdf
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/easy_track/model.config
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/urdf
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/urdf/materials.xacro
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/urdf/racecar.gazebo
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/urdf/racecar.xacro
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/urdf/macros.xacro
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/worlds
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/worlds/hard_track.world
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/worlds/medium_track.world
+-- Installing: /home/inspace/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/worlds/easy_track.world

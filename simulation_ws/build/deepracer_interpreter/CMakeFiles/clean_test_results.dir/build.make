@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/inspacehj/dr_logger/simulation_ws/src/deepracer_interpreter
+CMAKE_SOURCE_DIR = /home/inspace/dr_logger/simulation_ws/src/deepracer_interpreter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter
+CMAKE_BINARY_DIR = /home/inspacer_logger/simulation_ws/build/deepracer_interpreter
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/inspacehj/dr_logger/simulation_ws/build/deepracer_inter
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter/test_results
+	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/inspacer_logger/simulation_ws/build/deepracer_interpreter/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/inspacehj/dr_logger/simulation_ws/src/deepracer_interpreter /home/inspacehj/dr_logger/simulation_ws/src/deepracer_interpreter /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/inspacer_logger/simulation_ws/build/deepracer_interpreter && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ininspacelogger/simulation_ws/src/deepracer_interpreter /home/inspinspacegger/simulation_ws/src/deepracer_interpreter /home/inspacinspaceer/simulation_ws/build/deepracer_interpreter /home/inspace/inspace/simulation_ws/build/deepracer_interpreter /home/inspace/drinspaceimulation_ws/build/deepracer_interpreter/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

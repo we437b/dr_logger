@@ -1,4 +1,4 @@
-prefix=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation
+prefix=/home/inspace/dr_logger/simulation_ws/install/deepracer_simulation
 
 Name: deepracer_simulation
 Description: Description of deepracer_simulation

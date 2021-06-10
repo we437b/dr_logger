@@ -67,14 +67,14 @@ set(deepracer_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(deepracer_msgs_SOURCE_PREFIX /home/inspacehj/dr_logger/simulation_ws/src/deepracer_msgs)
-  set(deepracer_msgs_DEVEL_PREFIX /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/devel)
+  set(deepracer_msgs_SOURCE_PREFIX /home/inspace/dr_logger/simulation_ws/src/deepracer_msgs)
+  set(deepracer_msgs_DEVEL_PREFIX /home/inspacer_logger/simulation_ws/build/deepracer_msgs/devel)
   set(deepracer_msgs_INSTALL_PREFIX "")
   set(deepracer_msgs_PREFIX ${deepracer_msgs_DEVEL_PREFIX})
 else()
   set(deepracer_msgs_SOURCE_PREFIX "")
   set(deepracer_msgs_DEVEL_PREFIX "")
-  set(deepracer_msgs_INSTALL_PREFIX /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs)
+  set(deepracer_msgs_INSTALL_PREFIX /home/inspacer_logger/simulation_ws/install/deepracer_msgs)
   set(deepracer_msgs_PREFIX ${deepracer_msgs_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(deepracer_msgs_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/devel/include " STREQUAL " ")
+if(NOT "/home/inspacer_logger/simulation_ws/build/deepracer_msgs/devel/include " STREQUAL " ")
   set(deepracer_msgs_INCLUDE_DIRS "")
-  set(_include_dirs "/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/devel/include")
+  set(_include_dirs "/home/inspacer_logger/simulation_ws/build/deepracer_msgs/devel/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/devel/inclu
         message(FATAL_ERROR "Project 'deepracer_msgs' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'deepracer_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/inspacehj/dr_logger/simulation_ws/src/deepracer_msgs/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'deepracer_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/inspacer_logger/simulation_ws/src/deepracer_msgs/${idir}'.  ${_report}")
     endif()
     _list_append_unique(deepracer_msgs_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/devel/lib;/home/inspacehj/drone_mpc_ws/devel/.private/catkin_tools_prebuild/lib;/home/inspacehj/drone_ws/devel/.private/catkin_tools_prebuild/lib;/home/inspacehj/drone_mpc_ws/devel/lib;/home/inspacehj/autosim_ws/devel/lib;/home/inspacehj/catkin_ws/devel/lib;/home/inspacehj/drone_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/inspacer_logger/simulation_ws/build/deepracer_msgs/devel/lib;/home/ininspacene_mpc_ws/devel/.private/catkin_tools_prebuild/lib;/home/inspinspace_ws/devel/.private/catkin_tools_prebuild/lib;/home/inspacinspacepc_ws/devel/lib;/home/inspace/inspaces/devel/lib;/home/inspace/cainspaceevel/lib;/home/inspace/droninspacel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
