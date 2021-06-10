@@ -13,6 +13,11 @@ prev = -1.0
 command = AckermannDriveStamped()
 command.drive.speed = 0.0
 command.drive.steering_angle = 0.0
+prev_speed = 0
+prev_angle = 0
+
+
+
 
 def psidot_func(w, x, y, z):
     ysqr = y * y
@@ -42,18 +47,22 @@ def ackCallBack(data):
     global command
     command.drive.speed = data.drive.speed
     command.drive.steering_angle = data.drive.steering_angle
-    
+
 
 def callback(data):
     global dataim
     global sec
     global prev
-    tempsec = int(sec * 100)
-    tempprev = int(prev * 100)
+    sample_time = 0.1
+    digit = 1
+    timeval = 10^digit
+    tempsec = int(sec * 10)
+    tempprev = int(prev * 10)
+    
     if (tempsec != tempprev):
         f = open("/home/inspacehj/dr_logger/simulation_ws/src/deepracer_simulation/logs/"+dataim+".txt", "a")
         psidot = psidot_func(data.pose[0].orientation.w, data.pose[1].orientation.x, data.pose[1].orientation.y, data.pose[1].orientation.z)
-        f.write(str(round(sec,2)) + ", "+ str(data.pose[1].position.x)+", "+str(data.pose[1].position.y)+", "+str(psidot[0])+", "+str(psidot[1])+", "+str(psidot[2])+", "+str(data.twist[1].linear.x)+", "+str(data.twist[1].linear.y)+", "+str(data.twist[1].angular.z)+", "+str(command.drive.speed)+", "+str(command.drive.steering_angle)+"\n")
+        f.write(str(round(sec,digit)) + ", "+ str(data.pose[1].position.x)+", "+str(data.pose[1].position.y)+", "+str(psidot[2])+", "+str(data.twist[1].linear.x)+", "+str(data.twist[1].linear.y)+", "+str(data.twist[1].angular.z)+", "+str(command.drive.speed)+", "+str(command.drive.steering_angle)+"\n")
         f.close()
         prev = sec
 
@@ -66,6 +75,6 @@ def logger():
 
 if __name__ == '__main__':
     f = open("/home/inspacehj/dr_logger/simulation_ws/src/deepracer_simulation/logs/"+dataim+".txt", "w+")
-    f.write("in order time, x, y, psix, psiy, psiz, xdot, ydot, psidot\n")
+    f.write("in order time, x, y, psi, xdot, ydot, psidot\n")
     f.close()
     logger()
