@@ -27,8 +27,6 @@ _colcon_prefix_chain_powershell_source_script "/home/inspacehj/drone_ws/devel\lo
 _colcon_prefix_chain_powershell_source_script "/home/inspacehj/catkin_ws/devel\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/inspacehj/autosim_ws/devel\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/inspacehj/drone_mpc_ws/devel\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/inspacehj/drone_ws/devel/.private/catkin_tools_prebuild\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/inspacehj/drone_mpc_ws/devel/.private/catkin_tools_prebuild\local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)

@@ -1,0 +1,113 @@
+[0.034s] Invoking command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs': /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs -- -j16 -l16
+[0.069s] -- Using CATKIN_DEVEL_PREFIX: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/devel
+[0.070s] -- Using CMAKE_PREFIX_PATH: /home/inspacehj/drone_mpc_ws/devel;/home/inspacehj/autosim_ws/devel;/home/inspacehj/catkin_ws/devel;/home/inspacehj/drone_ws/devel;/opt/ros/melodic
+[0.070s] -- This workspace overlays: /home/inspacehj/drone_mpc_ws/devel;/home/inspacehj/autosim_ws/devel;/home/inspacehj/catkin_ws/devel;/home/inspacehj/drone_ws/devel;/opt/ros/melodic
+[0.080s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.080s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.080s] -- Using Debian Python package layout
+[0.080s] -- Using empy: /usr/bin/empy
+[0.182s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.182s] -- Call enable_testing()
+[0.182s] -- Using CATKIN_TEST_RESULTS_DIR: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/test_results
+[0.197s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.197s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.206s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[0.210s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[0.244s] -- catkin 0.7.29
+[0.244s] -- BUILD_SHARED_LIBS is on
+[0.326s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[0.470s] -- deepracer_msgs: 2 messages, 0 services
+[0.553s] -- Configuring done
+[0.564s] -- Generating done
+[0.567s] -- Build files have been written to: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs
+[0.589s] [  0%] Built target std_msgs_generate_messages_eus
+[0.591s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.592s] [  0%] Built target std_msgs_generate_messages_py
+[0.592s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.594s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.608s] [  0%] Built target _deepracer_msgs_generate_messages_check_deps_Control_input
+[0.608s] [  0%] Built target _deepracer_msgs_generate_messages_check_deps_Progress
+[0.625s] [ 16%] [34m[1mGenerating EusLisp code from deepracer_msgs/Progress.msg[0m
+[0.625s] [ 16%] [34m[1mGenerating Lisp code from deepracer_msgs/Progress.msg[0m
+[0.625s] [ 25%] [34m[1mGenerating EusLisp code from deepracer_msgs/Control_input.msg[0m
+[0.625s] [ 33%] [34m[1mGenerating Lisp code from deepracer_msgs/Control_input.msg[0m
+[0.625s] [ 41%] [34m[1mGenerating Javascript code from deepracer_msgs/Control_input.msg[0m
+[0.626s] [ 58%] [34m[1mGenerating Javascript code from deepracer_msgs/Progress.msg[0m
+[0.626s] [ 58%] [34m[1mGenerating Python from MSG deepracer_msgs/Progress[0m
+[0.626s] [ 66%] [34m[1mGenerating Python from MSG deepracer_msgs/Control_input[0m
+[0.630s] [ 83%] [34m[1mGenerating C++ code from deepracer_msgs/Progress.msg[0m
+[0.630s] [ 83%] [34m[1mGenerating C++ code from deepracer_msgs/Control_input.msg[0m
+[0.672s] [ 83%] Built target deepracer_msgs_generate_messages_nodejs
+[0.672s] [ 83%] Built target deepracer_msgs_generate_messages_lisp
+[0.683s] [ 91%] Built target deepracer_msgs_generate_messages_eus
+[0.731s] [ 91%] Built target deepracer_msgs_generate_messages_cpp
+[0.755s] [100%] [34m[1mGenerating Python msg __init__.py for deepracer_msgs[0m
+[0.840s] [100%] Built target deepracer_msgs_generate_messages_py
+[0.853s] [100%] Built target deepracer_msgs_generate_messages
+[0.861s] Invoked command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs' returned '0': /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs -- -j16 -l16
+[0.885s] Invoking command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs': /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs --target tests -- -j16 -l16
+[0.938s] Built target tests
+[0.952s] Invoked command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs' returned '0': /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs --target tests -- -j16 -l16
+[1.050s] Invoking command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs': /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs --target install -- -j16 -l16
+[1.108s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.108s] [  0%] Built target std_msgs_generate_messages_py
+[1.108s] [  0%] Built target std_msgs_generate_messages_eus
+[1.111s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.115s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.134s] [  0%] Built target _deepracer_msgs_generate_messages_check_deps_Control_input
+[1.134s] [  0%] Built target _deepracer_msgs_generate_messages_check_deps_Progress
+[1.152s] [ 25%] Built target deepracer_msgs_generate_messages_eus
+[1.155s] [ 50%] Built target deepracer_msgs_generate_messages_py
+[1.155s] [100%] Built target deepracer_msgs_generate_messages_lisp
+[1.155s] [100%] Built target deepracer_msgs_generate_messages_nodejs
+[1.155s] [100%] Built target deepracer_msgs_generate_messages_cpp
+[1.171s] [100%] Built target deepracer_msgs_generate_messages
+[1.185s] [36mInstall the project...[0m
+[1.191s] -- Install configuration: ""
+[1.191s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/msg/Progress.msg
+[1.191s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/msg/Control_input.msg
+[1.191s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/cmake/deepracer_msgs-msg-paths.cmake
+[1.192s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/include/deepracer_msgs
+[1.192s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/include/deepracer_msgs/Progress.h
+[1.192s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/include/deepracer_msgs/Control_input.h
+[1.192s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/roseus/ros/deepracer_msgs
+[1.192s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/roseus/ros/deepracer_msgs/msg
+[1.192s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/roseus/ros/deepracer_msgs/msg/Progress.l
+[1.192s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/roseus/ros/deepracer_msgs/msg/Control_input.l
+[1.192s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/roseus/ros/deepracer_msgs/manifest.l
+[1.193s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/common-lisp/ros/deepracer_msgs
+[1.193s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/common-lisp/ros/deepracer_msgs/msg
+[1.193s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/common-lisp/ros/deepracer_msgs/msg/deepracer_msgs-msg.asd
+[1.193s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/common-lisp/ros/deepracer_msgs/msg/_package_Progress.lisp
+[1.193s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/common-lisp/ros/deepracer_msgs/msg/_package_Control_input.lisp
+[1.193s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/common-lisp/ros/deepracer_msgs/msg/_package.lisp
+[1.193s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/common-lisp/ros/deepracer_msgs/msg/Control_input.lisp
+[1.193s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/common-lisp/ros/deepracer_msgs/msg/Progress.lisp
+[1.193s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/gennodejs/ros/deepracer_msgs
+[1.193s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/gennodejs/ros/deepracer_msgs/_index.js
+[1.193s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/gennodejs/ros/deepracer_msgs/msg
+[1.193s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/gennodejs/ros/deepracer_msgs/msg/Control_input.js
+[1.193s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/gennodejs/ros/deepracer_msgs/msg/_index.js
+[1.194s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/gennodejs/ros/deepracer_msgs/msg/Progress.js
+[1.207s] Listing /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/devel/lib/python2.7/dist-packages/deepracer_msgs ...
+[1.207s] Compiling /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/devel/lib/python2.7/dist-packages/deepracer_msgs/__init__.py ...
+[1.207s] Listing /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/devel/lib/python2.7/dist-packages/deepracer_msgs/msg ...
+[1.207s] Compiling /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/devel/lib/python2.7/dist-packages/deepracer_msgs/msg/_Control_input.py ...
+[1.207s] Compiling /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/devel/lib/python2.7/dist-packages/deepracer_msgs/msg/_Progress.py ...
+[1.207s] Compiling /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/devel/lib/python2.7/dist-packages/deepracer_msgs/msg/__init__.py ...
+[1.208s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages/deepracer_msgs
+[1.208s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages/deepracer_msgs/__init__.pyc
+[1.209s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages/deepracer_msgs/__init__.py
+[1.209s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages/deepracer_msgs/msg
+[1.209s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages/deepracer_msgs/msg/_Progress.pyc
+[1.209s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages/deepracer_msgs/msg/__init__.pyc
+[1.209s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages/deepracer_msgs/msg/_Control_input.py
+[1.209s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages/deepracer_msgs/msg/__init__.py
+[1.209s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages/deepracer_msgs/msg/_Progress.py
+[1.209s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages/deepracer_msgs/msg/_Control_input.pyc
+[1.210s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/pkgconfig/deepracer_msgs.pc
+[1.210s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/cmake/deepracer_msgs-msg-extras.cmake
+[1.210s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/cmake/deepracer_msgsConfig.cmake
+[1.210s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/cmake/deepracer_msgsConfig-version.cmake
+[1.210s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share/deepracer_msgs/package.xml
+[1.213s] Invoked command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs' returned '0': /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs --target install -- -j16 -l16

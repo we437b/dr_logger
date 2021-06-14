@@ -30,8 +30,8 @@ from deepracer_msgs.msg import Control_input
 
 T = 0.0
 delta = 0.0
-d_T = 0.05
-d_delta = np.deg2rad(3)
+d_T = 0.01
+d_delta = np.deg2rad(2)
 em_stop = 0
 
 keyBindings = {'w':(1.0,  0.0),  # move forward
@@ -84,7 +84,7 @@ if __name__== '__main__':
 
 
   rospy.init_node('key_control', anonymous = True)
-  rate = rospy.Rate(10) # 10Hz
+  # rate = rospy.Rate(1000) # 10Hz
 
   try:
     while True:
@@ -134,7 +134,7 @@ if __name__== '__main__':
     command.Emergency_stops = em_stop
     control_pub.publish(command)
           
-    rate.sleep()
+    rospy.spin()
 
     termios.tcsetattr(sys.stdin, termios.TCSADRAIN, settings)
 

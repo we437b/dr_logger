@@ -24,7 +24,7 @@ add_custom_target(_deepracer_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/inspacehj/dr_logger/simulation_ws/src/deepracer_msgs/msg/Control_input.msg" NAME_WE)
 add_custom_target(_deepracer_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "deepracer_msgs" "/home/inspacehj/dr_logger/simulation_ws/src/deepracer_msgs/msg/Control_input.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "deepracer_msgs" "/home/inspacehj/dr_logger/simulation_ws/src/deepracer_msgs/msg/Control_input.msg" ""
 )
 
 #
@@ -42,7 +42,7 @@ _generate_msg_cpp(deepracer_msgs
 _generate_msg_cpp(deepracer_msgs
   "/home/inspacehj/dr_logger/simulation_ws/src/deepracer_msgs/msg/Control_input.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/deepracer_msgs
 )
 
@@ -83,7 +83,7 @@ _generate_msg_eus(deepracer_msgs
 _generate_msg_eus(deepracer_msgs
   "/home/inspacehj/dr_logger/simulation_ws/src/deepracer_msgs/msg/Control_input.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/deepracer_msgs
 )
 
@@ -124,7 +124,7 @@ _generate_msg_lisp(deepracer_msgs
 _generate_msg_lisp(deepracer_msgs
   "/home/inspacehj/dr_logger/simulation_ws/src/deepracer_msgs/msg/Control_input.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/deepracer_msgs
 )
 
@@ -165,7 +165,7 @@ _generate_msg_nodejs(deepracer_msgs
 _generate_msg_nodejs(deepracer_msgs
   "/home/inspacehj/dr_logger/simulation_ws/src/deepracer_msgs/msg/Control_input.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/deepracer_msgs
 )
 
@@ -206,7 +206,7 @@ _generate_msg_py(deepracer_msgs
 _generate_msg_py(deepracer_msgs
   "/home/inspacehj/dr_logger/simulation_ws/src/deepracer_msgs/msg/Control_input.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/deepracer_msgs
 )
 

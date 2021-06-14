@@ -12,11 +12,13 @@
 
 import rospy
 import numpy as np
+import datetime
 from rosgraph_msgs.msg import Clock
 from ackermann_msgs.msg import AckermannDriveStamped
 from gazebo_msgs.msg import ModelStates
 from deepracer_msgs.msg import Control_input
 
+dataim = str(datetime.datetime.now())
 
 # value from deepracer_msgs.msg
 T = 0.0
@@ -24,6 +26,8 @@ delta = 0.0
 em_stop = 0
 
 speed = 0.0
+d_T = 0.0
+d_delta = 0.0
 
 dt = 0.1
 V_vx = 0
@@ -41,8 +45,8 @@ speed_upper = 15.0
 
 def accel(T,dt):
     T = np.float(T)
-    maxbrakeWForce = 98.1
-    maxmotorWForce = 49.05
+    maxbrakeWForce = 98.1 /2
+    maxmotorWForce = 49.05 /2 
     mass = 5
     totalWForce = T * (gez(T) * maxmotorWForce + lez(T) * maxbrakeWForce )
     return totalWForce/ mass * dt
@@ -50,7 +54,7 @@ def accel(T,dt):
 def clockCallBack(data):
     second = data.clock.to_sec()
     global sec
-    sec = second   
+    sec = second  
   
 def set_speed_limits(speed):
     global speed_upper, speed_lower
@@ -104,36 +108,50 @@ def control_callback(data):
     em_stop = data.Emergency_stops
 
 
+
 if __name__== '__main__':
-  command_pub = rospy.Publisher('/vesc/low_level/ackermann_cmd_mux/output', AckermannDriveStamped, queue_size = 1)
-  rospy.init_node('ackermann_control', anonymous = True)
-    # node name :key_control
+    command_pub = rospy.Publisher('/vesc/low_level/ackermann_cmd_mux/output', AckermannDriveStamped, queue_size = 1)
+    rospy.init_node('ackermann_control', anonymous = True)
+        # node name :key_control
 
-  
-  Rate = rospy.Rate(10) # sampling 10 Hz
-  
 
-  while not rospy.is_shutdown():
-      time = sec
-      command                = AckermannDriveStamped()
-      # rospy.loginfo("angle : %s", np.rad2deg(delta))
-      rospy.loginfo("dt : %s", dt )
-      # rospy.loginfo("V_vx : %s", V_vx)
+    Rate = rospy.Rate(100) # sampling 10 Hz
+    # f = open("/home/inspacehj/dr_logger/simulation_ws/src/deepracer_simulation/logs/"+dataim+"_U.txt", "w+")
+    # f.write("in order time, d_delta(angle), delta_steering \n")
+    # f.close()
 
-      speed = speed + accel(T,dt)
-      speed = set_speed_limits(speed)
+    while not rospy.is_shutdown():
+        time = sec
+        T_pre = T
+        delta_pre = delta
+        command                = AckermannDriveStamped()
+        # rospy.loginfo("angle : %s", np.rad2deg(delta))
+        rospy.loginfo("dt : %s", round(dt, 3))
+        # rospy.loginfo("V_vx : %s", V_vx)
 
-      if (em_stop==1):
-        speed = 0
-        delta = 0
+        speed = speed + accel(T,dt)
+        speed = set_speed_limits(speed)
 
-      command.drive.steering_angle = delta
-      command.drive.speed           = speed
-      command_pub.publish(command)
+        if (em_stop==1):
+            speed = 0
+            delta = 0
 
-      rospy.Subscriber('clock', Clock, clockCallBack)
-      rospy.Subscriber("gazebo/model_states", ModelStates, state_callback)
-      rospy.Subscriber("/Control_inputs", Control_input, control_callback)
-      Rate.sleep()
-      dt = sec - time
-      
+        command.drive.steering_angle = delta
+        command.drive.speed           = speed
+        command_pub.publish(command)
+
+        rospy.Subscriber('clock', Clock, clockCallBack)
+        rospy.Subscriber("gazebo/model_states", ModelStates, state_callback)
+        rospy.Subscriber("/Control_inputs", Control_input, control_callback)
+
+        # f = open("/home/inspacehj/dr_logger/simulation_ws/src/deepracer_simulation/logs/"+dataim+"_U.txt", "a")
+        # f.write(str(round(sec, 3)) + ", " +str(d_delta) + ", " + str(d_T) + "\n" )
+        # f.close()
+            
+        Rate.sleep()
+
+        dt = sec - time
+        d_T = T - T_pre
+        d_delta = delta - delta_pre
+        
+        
