@@ -1,0 +1,6 @@
+./deep_only.sh 
+
+./test_topic.sh
+
+roslaunch deepracer_simulation ackermann_control.launch 
+

@@ -67,14 +67,14 @@ set(deepracer_interpreter_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(deepracer_interpreter_SOURCE_PREFIX /home/inspace/dr_logger/simulation_ws/src/deepracer_interpreter)
-  set(deepracer_interpreter_DEVEL_PREFIX /home/inspacer_logger/simulation_ws/build/deepracer_interpreter/devel)
+  set(deepracer_interpreter_SOURCE_PREFIX /home/inspacehj/dr_logger/simulation_ws/src/deepracer_interpreter)
+  set(deepracer_interpreter_DEVEL_PREFIX /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter/devel)
   set(deepracer_interpreter_INSTALL_PREFIX "")
   set(deepracer_interpreter_PREFIX ${deepracer_interpreter_DEVEL_PREFIX})
 else()
   set(deepracer_interpreter_SOURCE_PREFIX "")
   set(deepracer_interpreter_DEVEL_PREFIX "")
-  set(deepracer_interpreter_INSTALL_PREFIX /home/inspacer_logger/simulation_ws/install/deepracer_interpreter)
+  set(deepracer_interpreter_INSTALL_PREFIX /home/inspacehj/dr_logger/simulation_ws/install/deepracer_interpreter)
   set(deepracer_interpreter_PREFIX ${deepracer_interpreter_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/inspacer_logger/simulation_ws/install/deepracer_interpreter/lib;/home/ininspacelogger/simulation_ws/install/deepracer_msgs/lib;/home/inspinspacegger/simulation_ws/install/deepracer_simulation/lib;/home/inspacinspacepc_ws/devel/.private/catkin_tools_prebuild/lib;/home/inspace/inspacedevel/.private/catkin_tools_prebuild/lib;/home/inspace/drinspaces/devel/lib;/home/inspace/autoinspacevel/lib;/home/inspace/catkininspace/lib;/home/inspace/drone_wsinspaceb;/opt/ros/melodic/lib)
+    foreach(path /home/inspacehj/dr_logger/simulation_ws/install/deepracer_interpreter/lib;/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib;/home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib;/home/inspacehj/dr_logger/simulation_ws/install/deepracer_interpreter/lib;/home/inspacehj/drone_mpc_ws/devel/.private/catkin_tools_prebuild/lib;/home/inspacehj/drone_ws/devel/.private/catkin_tools_prebuild/lib;/home/inspacehj/drone_mpc_ws/devel/lib;/home/inspacehj/autosim_ws/devel/lib;/home/inspacehj/catkin_ws/devel/lib;/home/inspacehj/drone_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,0 +1,42 @@
+[0.048s] Invoking command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs': /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs -- -j16 -l16
+[0.066s] -- Using CATKIN_DEVEL_PREFIX: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/devel
+[0.066s] -- Using CMAKE_PREFIX_PATH: /home/inspacehj/drone_mpc_ws/devel;/home/inspacehj/autosim_ws/devel;/home/inspacehj/catkin_ws/devel;/home/inspacehj/drone_ws/devel;/opt/ros/melodic
+[0.066s] -- This workspace overlays: /home/inspacehj/drone_mpc_ws/devel;/home/inspacehj/autosim_ws/devel;/home/inspacehj/catkin_ws/devel;/home/inspacehj/drone_ws/devel;/opt/ros/melodic
+[0.077s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.077s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.077s] -- Using Debian Python package layout
+[0.077s] -- Using empy: /usr/bin/empy
+[0.178s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.178s] -- Call enable_testing()
+[0.178s] -- Using CATKIN_TEST_RESULTS_DIR: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/test_results
+[0.191s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.191s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.200s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[0.204s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[0.231s] -- catkin 0.7.29
+[0.231s] -- BUILD_SHARED_LIBS is on
+[0.312s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[0.444s] -- deepracer_msgs: 2 messages, 0 services
+[0.531s] -- Configuring done
+[0.542s] -- Generating done
+[0.545s] -- Build files have been written to: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs
+[0.563s] [35m[1mScanning dependencies of target _deepracer_msgs_generate_messages_check_deps_Control_input[0m
+[0.568s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.568s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.568s] [  0%] Built target std_msgs_generate_messages_eus
+[0.569s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.572s] [  0%] Built target std_msgs_generate_messages_py
+[0.584s] [  0%] Built target _deepracer_msgs_generate_messages_check_deps_Progress
+[0.586s] [  0%] Built target _deepracer_msgs_generate_messages_check_deps_Control_input
+[0.600s] [ 41%] [34m[1mGenerating C++ code from deepracer_msgs/Control_input.msg[0m
+[0.601s] [ 41%] [34m[1mGenerating Javascript code from deepracer_msgs/Control_input.msg[0m
+[0.601s] [ 41%] [34m[1mGenerating Python from MSG deepracer_msgs/Control_input[0m
+[0.601s] [ 41%] [34m[1mGenerating Lisp code from deepracer_msgs/Control_input.msg[0m
+[0.601s] [ 41%] [34m[1mGenerating EusLisp code from deepracer_msgs/Control_input.msg[0m
+[0.628s] [ 50%] Built target deepracer_msgs_generate_messages_lisp
+[0.638s] [ 58%] Built target deepracer_msgs_generate_messages_nodejs
+[0.657s] [ 75%] Built target deepracer_msgs_generate_messages_eus
+[0.699s] [ 83%] Built target deepracer_msgs_generate_messages_cpp
+[0.700s] [ 91%] [34m[1mGenerating Python msg __init__.py for deepracer_msgs[0m
+[0.783s] [100%] Built target deepracer_msgs_generate_messages_py
+[0.796s] [100%] Built target deepracer_msgs_generate_messages

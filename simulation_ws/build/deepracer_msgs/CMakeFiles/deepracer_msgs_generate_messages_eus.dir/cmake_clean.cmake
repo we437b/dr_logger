@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/deepracer_msgs_generate_messages_eus"
   "devel/share/roseus/ros/deepracer_msgs/msg/Progress.l"
+  "devel/share/roseus/ros/deepracer_msgs/msg/Control_input.l"
   "devel/share/roseus/ros/deepracer_msgs/manifest.l"
 )
 

@@ -1,4 +1,4 @@
-prefix=/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs
+prefix=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs
 
 Name: deepracer_msgs
 Description: Description of deepracer_msgs

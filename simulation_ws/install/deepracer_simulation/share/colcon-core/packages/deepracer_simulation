@@ -1,1 +1,1 @@
-ackermann_msgs:controller_manager:gazebo:gazebo_plugins:gazebo_ros:gazebo_ros_control:robot_state_publisher:ros_control:ros_controllers
+ackermann_msgs:controller_manager:deepracer_msgs:gazebo:gazebo_plugins:gazebo_ros:gazebo_ros_control:robot_state_publisher:ros_control:ros_controllers

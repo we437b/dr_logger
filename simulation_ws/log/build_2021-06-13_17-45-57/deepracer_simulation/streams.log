@@ -1,0 +1,29 @@
+[0.023s] Invoking command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation': /usr/bin/cmake /home/inspacehj/dr_logger/simulation_ws/src/deepracer_simulation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation
+[0.033s] -- Using CATKIN_DEVEL_PREFIX: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation/devel
+[0.033s] -- Using CMAKE_PREFIX_PATH: /home/inspacehj/drone_mpc_ws/devel;/home/inspacehj/autosim_ws/devel;/home/inspacehj/catkin_ws/devel;/home/inspacehj/drone_ws/devel;/opt/ros/melodic
+[0.034s] -- This workspace overlays: /home/inspacehj/drone_mpc_ws/devel;/home/inspacehj/autosim_ws/devel;/home/inspacehj/catkin_ws/devel;/home/inspacehj/drone_ws/devel;/opt/ros/melodic
+[0.043s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.043s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.043s] -- Using Debian Python package layout
+[0.043s] -- Using empy: /usr/bin/empy
+[0.153s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.153s] -- Call enable_testing()
+[0.153s] -- Using CATKIN_TEST_RESULTS_DIR: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation/test_results
+[0.166s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.166s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.175s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[0.179s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[0.206s] -- catkin 0.7.29
+[0.206s] -- BUILD_SHARED_LIBS is on
+[0.336s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[0.511s] CMake Error at /opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake:94 (message):
+[0.511s]   add_message_files() directory not found:
+[0.511s]   /home/inspacehj/dr_logger/simulation_ws/src/deepracer_simulation/msg
+[0.512s] Call Stack (most recent call first):
+[0.512s]   CMakeLists.txt:21 (add_message_files)
+[0.512s] 
+[0.512s] 
+[0.512s] -- Configuring incomplete, errors occurred!
+[0.512s] See also "/home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation/CMakeFiles/CMakeOutput.log".
+[0.512s] See also "/home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation/CMakeFiles/CMakeError.log".
+[0.615s] Invoked command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation' returned '1': /usr/bin/cmake /home/inspacehj/dr_logger/simulation_ws/src/deepracer_simulation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation

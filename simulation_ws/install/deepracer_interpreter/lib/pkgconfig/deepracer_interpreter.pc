@@ -1,4 +1,4 @@
-prefix=/home/inspace/dr_logger/simulation_ws/install/deepracer_interpreter
+prefix=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_interpreter
 
 Name: deepracer_interpreter
 Description: Description of deepracer_interpreter

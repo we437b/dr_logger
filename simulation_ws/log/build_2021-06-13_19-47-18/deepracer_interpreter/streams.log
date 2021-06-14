@@ -1,0 +1,110 @@
+[0.008s] Invoking command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter': CMAKE_PREFIX_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter -- -j16 -l16
+[0.027s] -- Using CATKIN_DEVEL_PREFIX: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter/devel
+[0.027s] -- Using CMAKE_PREFIX_PATH: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs;/home/inspacehj/drone_mpc_ws/devel;/home/inspacehj/autosim_ws/devel;/home/inspacehj/catkin_ws/devel;/home/inspacehj/drone_ws/devel;/opt/ros/melodic
+[0.027s] -- This workspace overlays: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs;/home/inspacehj/drone_mpc_ws/devel;/home/inspacehj/autosim_ws/devel;/home/inspacehj/catkin_ws/devel;/home/inspacehj/drone_ws/devel;/opt/ros/melodic
+[0.037s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.037s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.037s] -- Using Debian Python package layout
+[0.037s] -- Using empy: /usr/bin/empy
+[0.139s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.139s] -- Call enable_testing()
+[0.140s] -- Using CATKIN_TEST_RESULTS_DIR: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter/test_results
+[0.152s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.153s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.161s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[0.165s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[0.192s] -- catkin 0.7.29
+[0.192s] -- BUILD_SHARED_LIBS is on
+[0.311s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[0.504s] -- Boost version: 1.65.1
+[0.504s] -- Found the following Boost libraries:
+[0.504s] --   thread
+[0.504s] --   signals
+[0.505s] --   system
+[0.505s] --   filesystem
+[0.505s] --   program_options
+[0.505s] --   regex
+[0.505s] --   iostreams
+[0.505s] --   date_time
+[0.505s] --   chrono
+[0.505s] --   atomic
+[0.510s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.0.0") 
+[0.522s] -- Boost version: 1.65.1
+[0.523s] -- Looking for OGRE...
+[0.527s] -- Found Ogre Ghadamon (1.9.0)
+[0.528s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.552s] CMake Warning (dev) at /usr/share/cmake-3.10/Modules/FindBoost.cmake:911 (if):
+[0.552s]   Policy CMP0054 is not set: Only interpret if() arguments as variables or
+[0.552s]   keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+[0.552s]   details.  Use the cmake_policy command to set the policy and suppress this
+[0.552s]   warning.
+[0.552s] 
+[0.552s]   Quoted variables like "chrono" will no longer be dereferenced when the
+[0.552s]   policy is set to NEW.  Since the policy is not set the OLD behavior will be
+[0.552s]   used.
+[0.552s] Call Stack (most recent call first):
+[0.553s]   /usr/share/cmake-3.10/Modules/FindBoost.cmake:1558 (_Boost_MISSING_DEPENDENCIES)
+[0.553s]   /usr/share/OGRE/cmake/modules/FindOGRE.cmake:318 (find_package)
+[0.553s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:175 (find_package)
+[0.553s]   CMakeLists.txt:11 (find_package)
+[0.553s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.553s] 
+[0.559s] -- Looking for OGRE_Paging...
+[0.559s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.560s] -- Looking for OGRE_Terrain...
+[0.560s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.560s] -- Looking for OGRE_Property...
+[0.560s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.560s] -- Looking for OGRE_RTShaderSystem...
+[0.560s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.560s] -- Looking for OGRE_Volume...
+[0.561s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.561s] -- Looking for OGRE_Overlay...
+[0.561s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.626s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread;-lpthread (found suitable version "3.0.0", minimum required is "2.3.0") 
+[0.631s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.634s] -- Checking for module 'libzmq >= 4'
+[0.643s] --   Found libzmq , version 4.2.5
+[0.670s] -- Checking for module 'uuid'
+[0.678s] --   Found uuid, version 2.31.1
+[0.707s] -- Checking for module 'tinyxml2'
+[0.716s] --   Found tinyxml2, version 6.0.0
+[0.745s] -- Looking for dlfcn.h - found
+[0.745s] -- Looking for libdl - found
+[0.747s] -- FreeImage.pc not found, we will search for FreeImage_INCLUDE_DIRS and FreeImage_LIBRARIES
+[0.805s] -- Checking for module 'gts'
+[0.816s] --   Found gts, version 0.7.6
+[0.867s] -- Checking for module 'libswscale'
+[0.887s] --   Found libswscale, version 4.8.100
+[0.937s] -- Checking for module 'libavdevice >= 56.4.100'
+[0.946s] --   Found libavdevice , version 57.10.100
+[0.977s] -- Checking for module 'libavformat'
+[0.986s] --   Found libavformat, version 57.83.100
+[1.015s] -- Checking for module 'libavcodec'
+[1.024s] --   Found libavcodec, version 57.107.100
+[1.052s] -- Checking for module 'libavutil'
+[1.062s] --   Found libavutil, version 55.78.100
+[1.129s] -- Checking for module 'jsoncpp'
+[1.160s] --   Found jsoncpp, version 1.7.4
+[1.306s] -- Checking for module 'yaml-0.1'
+[1.355s] --   Found yaml-0.1, version 0.1.7
+[1.381s] -- Checking for module 'libzip'
+[1.394s] --   Found libzip, version 1.1.2
+[1.428s] -- Configuring done
+[1.468s] -- Generating done
+[1.476s] -- Build files have been written to: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter
+[1.510s] [100%] Built target racecar_plugin
+[1.517s] Invoked command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter' returned '0': CMAKE_PREFIX_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter -- -j16 -l16
+[1.648s] Invoking command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter': CMAKE_PREFIX_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter --target tests -- -j16 -l16
+[1.765s] Built target tests
+[1.779s] Invoked command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter' returned '0': CMAKE_PREFIX_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter --target tests -- -j16 -l16
+[1.840s] Invoking command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter': CMAKE_PREFIX_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter --target install -- -j16 -l16
+[1.935s] [100%] Built target racecar_plugin
+[1.949s] [36mInstall the project...[0m
+[1.954s] -- Install configuration: ""
+[1.954s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_interpreter/lib/pkgconfig/deepracer_interpreter.pc
+[1.954s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_interpreter/share/deepracer_interpreter/cmake/deepracer_interpreterConfig.cmake
+[1.954s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_interpreter/share/deepracer_interpreter/cmake/deepracer_interpreterConfig-version.cmake
+[1.954s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_interpreter/share/deepracer_interpreter/package.xml
+[1.954s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_interpreter/lib/libracecar_plugin.so
+[1.957s] Invoked command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter' returned '0': CMAKE_PREFIX_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter --target install -- -j16 -l16

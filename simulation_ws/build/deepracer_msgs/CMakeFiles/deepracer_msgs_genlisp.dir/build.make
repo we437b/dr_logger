@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/inspace/dr_logger/simulation_ws/src/deepracer_msgs
+CMAKE_SOURCE_DIR = /home/inspacehj/dr_logger/simulation_ws/src/deepracer_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/inspacer_logger/simulation_ws/build/deepracer_msgs
+CMAKE_BINARY_DIR = /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs
 
 # Utility rule file for deepracer_msgs_genlisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/deepracer_msgs_genlisp.dir/clean:
 .PHONY : CMakeFiles/deepracer_msgs_genlisp.dir/clean
 
 CMakeFiles/deepracer_msgs_genlisp.dir/depend:
-	cd /home/inspacer_logger/simulation_ws/build/deepracer_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ininspacelogger/simulation_ws/src/deepracer_msgs /home/inspinspacegger/simulation_ws/src/deepracer_msgs /home/inspacinspaceer/simulation_ws/build/deepracer_msgs /home/inspace/inspace/simulation_ws/build/deepracer_msgs /home/inspace/drinspaceimulation_ws/build/deepracer_msgs/CMakeFiles/deepracer_msgs_genlisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/inspacehj/dr_logger/simulation_ws/src/deepracer_msgs /home/inspacehj/dr_logger/simulation_ws/src/deepracer_msgs /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/CMakeFiles/deepracer_msgs_genlisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/deepracer_msgs_genlisp.dir/depend
 

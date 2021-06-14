@@ -26,7 +26,6 @@ and automatically stop and unload those same controllers at once-->
     <remap from="/racecar/ackermann_cmd_mux/output" to="/vesc/low_level/ackermann_cmd_mux/output"/>
   </node>
   <!-- keyboard node -->
-  <node pkg="deepracer_simulation" type="key_control.py" name="key_control" output="screen"/>
 
 
 </launch>

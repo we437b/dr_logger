@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/sagemaker_rl_agent/sagemaker_rl_agent.egg-info
+writing ../../build/sagemaker_rl_agent/sagemaker_rl_agent.egg-info/PKG-INFO
+writing dependency_links to ../../build/sagemaker_rl_agent/sagemaker_rl_agent.egg-info/dependency_links.txt
+writing entry points to ../../build/sagemaker_rl_agent/sagemaker_rl_agent.egg-info/entry_points.txt
+writing requirements to ../../build/sagemaker_rl_agent/sagemaker_rl_agent.egg-info/requires.txt
+writing top-level names to ../../build/sagemaker_rl_agent/sagemaker_rl_agent.egg-info/top_level.txt
+writing manifest file '../../build/sagemaker_rl_agent/sagemaker_rl_agent.egg-info/SOURCES.txt'
+adding license file 'LICENSE' (matched pattern 'LICEN[CS]E*')
+reading manifest file '../../build/sagemaker_rl_agent/sagemaker_rl_agent.egg-info/SOURCES.txt'
+writing manifest file '../../build/sagemaker_rl_agent/sagemaker_rl_agent.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/build
+creating /home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/build/lib
+creating /home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/build/lib/markov
+copying markov/utils.py -> /home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/build/lib/markov
+copying markov/s3_boto_data_store.py -> /home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/build/lib/markov
+copying markov/__init__.py -> /home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/build/lib/markov
+copying markov/single_machine_training_worker.py -> /home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/build/lib/markov
+copying markov/evaluation_worker.py -> /home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/build/lib/markov
+copying markov/rollout_worker.py -> /home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/build/lib/markov
+creating /home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/build/lib/markov/environments
+copying markov/environments/object_tracker_env.py -> /home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/build/lib/markov/environments
+copying markov/environments/__init__.py -> /home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/build/lib/markov/environments
+copying markov/environments/deepracer_env.py -> /home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/build/lib/markov/environments
+creating /home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/build/lib/markov/presets
+copying markov/presets/__init__.py -> /home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/build/lib/markov/presets
+copying markov/presets/object_tracker.py -> /home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/build/lib/markov/presets
+copying markov/presets/deepracer.py -> /home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/build/lib/markov/presets
+running install
+running install_lib
+running install_egg_info
+removing '/home/inspacehj/dr_logger/simulation_ws/install/sagemaker_rl_agent/lib/python3.6/site-packages/sagemaker_rl_agent-0.0.1-py3.6.egg-info' (and everything under it)
+Copying ../../build/sagemaker_rl_agent/sagemaker_rl_agent.egg-info to /home/inspacehj/dr_logger/simulation_ws/install/sagemaker_rl_agent/lib/python3.6/site-packages/sagemaker_rl_agent-0.0.1-py3.6.egg-info
+running install_scripts
+Installing run_local_rl_agent script to /home/inspacehj/dr_logger/simulation_ws/install/sagemaker_rl_agent/bin
+Installing run_rollout_rl_agent script to /home/inspacehj/dr_logger/simulation_ws/install/sagemaker_rl_agent/bin
+writing list of installed files to '/home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/install.log'

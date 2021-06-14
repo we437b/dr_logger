@@ -1,0 +1,5 @@
+The dependencies of the message/service 'deepracer_msgs/Control_input' have changed. Please rerun cmake.
+make[2]: *** [CMakeFiles/_deepracer_msgs_generate_messages_check_deps_Control_input] Error 1
+make[1]: *** [CMakeFiles/_deepracer_msgs_generate_messages_check_deps_Control_input.dir/all] Error 2
+make[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+make: *** [all] Error 2

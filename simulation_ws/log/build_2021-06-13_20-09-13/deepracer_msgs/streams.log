@@ -1,0 +1,16 @@
+[0.034s] Invoking command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs': /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs -- -j16 -l16
+[0.071s] [  0%] Built target std_msgs_generate_messages_py
+[0.072s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.072s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.072s] [  0%] Built target std_msgs_generate_messages_eus
+[0.077s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.081s] The dependencies of the message/service 'deepracer_msgs/Control_input' have changed. Please rerun cmake.
+[0.082s] CMakeFiles/_deepracer_msgs_generate_messages_check_deps_Control_input.dir/build.make:57: recipe for target 'CMakeFiles/_deepracer_msgs_generate_messages_check_deps_Control_input' failed
+[0.082s] make[2]: *** [CMakeFiles/_deepracer_msgs_generate_messages_check_deps_Control_input] Error 1
+[0.083s] make[1]: *** [CMakeFiles/_deepracer_msgs_generate_messages_check_deps_Control_input.dir/all] Error 2
+[0.083s] make[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[0.083s] CMakeFiles/Makefile2:361: recipe for target 'CMakeFiles/_deepracer_msgs_generate_messages_check_deps_Control_input.dir/all' failed
+[0.092s] [  0%] Built target _deepracer_msgs_generate_messages_check_deps_Progress
+[0.092s] make: *** [all] Error 2
+[0.092s] Makefile:140: recipe for target 'all' failed
+[0.231s] Invoked command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs' returned '2': /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs -- -j16 -l16

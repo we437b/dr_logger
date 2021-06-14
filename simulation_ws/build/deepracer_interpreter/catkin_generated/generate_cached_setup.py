@@ -12,16 +12,16 @@ try:
     from catkin.environment_cache import generate_environment_script
 except ImportError:
     # search for catkin package in all workspaces and prepend to path
-    for workspace in '/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs;/home/inspace/dr_logger/simulation_ws/install/deepracer_simulation;/home/inspace/drone_mpc_ws/devel/.private/catkin_tools_prebuild;/home/inspace/drone_ws/devel/.private/catkin_tools_prebuild;/home/inspace/drone_mpc_ws/devel;/home/inspace/autosim_ws/devel;/home/inspace/catkin_ws/devel;/home/inspace/drone_ws/devel;/opt/ros/melodic'.split(';'):
+    for workspace in '/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs;/home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation;/home/inspacehj/dr_logger/simulation_ws/install/deepracer_interpreter;/home/inspacehj/drone_mpc_ws/devel/.private/catkin_tools_prebuild;/home/inspacehj/drone_ws/devel/.private/catkin_tools_prebuild;/home/inspacehj/drone_mpc_ws/devel;/home/inspacehj/autosim_ws/devel;/home/inspacehj/catkin_ws/devel;/home/inspacehj/drone_ws/devel;/opt/ros/melodic'.split(';'):
         python_path = os.path.join(workspace, 'lib/python2.7/dist-packages')
         if os.path.isdir(os.path.join(python_path, 'catkin')):
             sys.path.insert(0, python_path)
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/inspacer_logger/simulation_ws/build/deepracer_interpreter/devel/env.sh')
+code = generate_environment_script('/home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter/devel/env.sh')
 
-output_filename = '/home/inspacer_logger/simulation_ws/build/deepracer_interpreter/catkin_generated/setup_cached.sh'
+output_filename = '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_interpreter/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:
     # print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))

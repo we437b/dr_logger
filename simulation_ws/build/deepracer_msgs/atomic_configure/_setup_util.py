@@ -268,7 +268,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = r'/home/inspace/dr_logger/simulation_ws/install/deepracer_simulation;/home/inspace/dr_logger/simulation_ws/install/deepracer_interpreter;/home/inspace/dr_logger/simulation_ws/install/deepracer_msgs;/home/inspace/drone_mpc_ws/devel/.private/catkin_tools_prebuild;/home/inspace/drone_ws/devel/.private/catkin_tools_prebuild;/home/inspace/drone_mpc_ws/devel;/home/inspace/autosim_ws/devel;/home/inspace/catkin_ws/devel;/home/inspace/drone_ws/devel;/opt/ros/melodic'.split(';')
+            CMAKE_PREFIX_PATH = r'/home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation;/home/inspacehj/dr_logger/simulation_ws/install/deepracer_interpreter;/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs;/home/inspacehj/drone_mpc_ws/devel/.private/catkin_tools_prebuild;/home/inspacehj/drone_ws/devel/.private/catkin_tools_prebuild;/home/inspacehj/drone_mpc_ws/devel;/home/inspacehj/autosim_ws/devel;/home/inspacehj/catkin_ws/devel;/home/inspacehj/drone_ws/devel;/opt/ros/melodic'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []

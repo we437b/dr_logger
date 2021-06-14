@@ -1,0 +1,38 @@
+[0.023s] Invoking command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation': /usr/bin/cmake /home/inspacehj/dr_logger/simulation_ws/src/deepracer_simulation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation
+[0.033s] -- Using CATKIN_DEVEL_PREFIX: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation/devel
+[0.033s] -- Using CMAKE_PREFIX_PATH: /home/inspacehj/drone_mpc_ws/devel;/home/inspacehj/autosim_ws/devel;/home/inspacehj/catkin_ws/devel;/home/inspacehj/drone_ws/devel;/opt/ros/melodic
+[0.033s] -- This workspace overlays: /home/inspacehj/drone_mpc_ws/devel;/home/inspacehj/autosim_ws/devel;/home/inspacehj/catkin_ws/devel;/home/inspacehj/drone_ws/devel;/opt/ros/melodic
+[0.043s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.044s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.044s] -- Using Debian Python package layout
+[0.044s] -- Using empy: /usr/bin/empy
+[0.146s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.146s] -- Call enable_testing()
+[0.146s] -- Using CATKIN_TEST_RESULTS_DIR: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation/test_results
+[0.159s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.159s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.168s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[0.172s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[0.199s] -- catkin 0.7.29
+[0.200s] -- BUILD_SHARED_LIBS is on
+[0.262s] -- Could NOT find gazebo_rosz (missing: gazebo_rosz_DIR)
+[0.263s] -- Could not find the required component 'gazebo_rosz'. The following CMake error indicates that you either need to install the package with the same name or change your environment so that it can be found.
+[0.263s] CMake Error at /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+[0.263s]   Could not find a package configuration file provided by "gazebo_rosz" with
+[0.263s]   any of the following names:
+[0.263s] 
+[0.263s]     gazebo_roszConfig.cmake
+[0.263s]     gazebo_rosz-config.cmake
+[0.263s] 
+[0.263s]   Add the installation prefix of "gazebo_rosz" to CMAKE_PREFIX_PATH or set
+[0.263s]   "gazebo_rosz_DIR" to a directory containing one of the above files.  If
+[0.263s]   "gazebo_rosz" provides a separate development package or SDK, be sure it
+[0.263s]   has been installed.
+[0.263s] Call Stack (most recent call first):
+[0.263s]   CMakeLists.txt:4 (find_package)
+[0.263s] 
+[0.264s] 
+[0.264s] -- Configuring incomplete, errors occurred!
+[0.264s] See also "/home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation/CMakeFiles/CMakeOutput.log".
+[0.264s] See also "/home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation/CMakeFiles/CMakeError.log".
+[0.265s] Invoked command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation' returned '1': /usr/bin/cmake /home/inspacehj/dr_logger/simulation_ws/src/deepracer_simulation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation

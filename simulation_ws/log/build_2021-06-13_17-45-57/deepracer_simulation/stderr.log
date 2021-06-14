@@ -1,0 +1,7 @@
+CMake Error at /opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake:94 (message):
+  add_message_files() directory not found:
+  /home/inspacehj/dr_logger/simulation_ws/src/deepracer_simulation/msg
+Call Stack (most recent call first):
+  CMakeLists.txt:21 (add_message_files)
+
+

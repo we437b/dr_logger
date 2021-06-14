@@ -3,7 +3,10 @@ project(deepracer_simulation)
 
 find_package(catkin REQUIRED COMPONENTS
   gazebo_ros
+  deepracer_msgs
 )
+
+
 
 catkin_package()
 
@@ -26,8 +29,10 @@ install(PROGRAMS
     scripts/run_evaluation_rl_agent.sh
     scripts/key_control.py
     scripts/logger.py
+    scripts/ackermann_control.py
     DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+
 
 install(DIRECTORY launch/
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/launch

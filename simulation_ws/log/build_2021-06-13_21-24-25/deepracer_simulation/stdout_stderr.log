@@ -1,0 +1,109 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation/devel
+-- Using CMAKE_PREFIX_PATH: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs;/home/inspacehj/drone_mpc_ws/devel;/home/inspacehj/autosim_ws/devel;/home/inspacehj/catkin_ws/devel;/home/inspacehj/drone_ws/devel;/opt/ros/melodic
+-- This workspace overlays: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs;/home/inspacehj/drone_mpc_ws/devel;/home/inspacehj/autosim_ws/devel;/home/inspacehj/catkin_ws/devel;/home/inspacehj/drone_ws/devel;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation
+Built target tests
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/pkgconfig/deepracer_simulation.pc
+-- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/cmake/deepracer_simulationConfig.cmake
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/cmake/deepracer_simulationConfig-version.cmake
+-- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/package.xml
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/servo_commands.py
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/run_local_rl_agent.sh
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/run_rollout_rl_agent.sh
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/run_evaluation_rl_agent.sh
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/key_control.py
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/logger.py
+-- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/ackermann_control.py
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch
+-- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/racecar_control.launch
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/distributed_training.launch
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/racetrack_with_racecar.launch
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/local_training.launch
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/racecar.launch
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/logger.launch
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/evaluation.launch
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/config
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/config/racecar_control.yaml
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/boundary_lines.png
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_steering_hinge.dae
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/cone.dae
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/CarAO.jpg
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hokuyo.dae
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/Track3_and_Wall.dae
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/SolidLine_DIFF.png
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/Astroturf_Gray_DIFF.png
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/Grass_DIFF.png
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/walls.jpg
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/Track3_and_wall.blend
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/DashedLine_DIFF.png
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_front_wheel.dae
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_steering_hinge.STL
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_front_wheel.dae
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/aws_DIFF.jpg
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_rear_wheel.STL
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/medium_track
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/medium_track/scripts
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/medium_track/scripts/medium_track.material
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/medium_track/textures
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/medium_track/textures/medium_track.png
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/polymsh_detached4.jpg
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_rear_wheel.dae
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_front_wheel.STL
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/parking_1.dae
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/racetrack.world
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/center_line.png
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/chassis.dae
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/baseboard_checkers.jpg
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_rear_wheel.STL
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_rear_wheel.dae
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_front_wheel.STL
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_steering_hinge.STL
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/easy_track
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/easy_track/scripts
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/easy_track/scripts/easy_track.material
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/easy_track/textures
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/easy_track/textures/easy_track.jpg
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/checkers_DIFF.jpg
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/chassis.STL
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/ground_plane_tex.png
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_steering_hinge.dae
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/Polygon.jpg
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/hard_track
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/hard_track/model.sdf
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/hard_track/model.config
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/medium_track
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/medium_track/model.sdf
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/medium_track/model.config
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/easy_track
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/easy_track/model.sdf
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/easy_track/model.config
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/urdf
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/urdf/materials.xacro
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/urdf/racecar.gazebo
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/urdf/racecar.xacro
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/urdf/macros.xacro
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/worlds
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/worlds/hard_track.world
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/worlds/medium_track.world
+-- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/worlds/easy_track.world

@@ -1,0 +1,15 @@
+CMake Error at /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "gazebo_rosz" with
+  any of the following names:
+
+    gazebo_roszConfig.cmake
+    gazebo_rosz-config.cmake
+
+  Add the installation prefix of "gazebo_rosz" to CMAKE_PREFIX_PATH or set
+  "gazebo_rosz_DIR" to a directory containing one of the above files.  If
+  "gazebo_rosz" provides a separate development package or SDK, be sure it
+  has been installed.
+Call Stack (most recent call first):
+  CMakeLists.txt:4 (find_package)
+
+

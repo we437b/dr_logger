@@ -1,0 +1,7 @@
+[0.023s] Invoking command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation': /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation -- -j16 -l16
+[0.029s] CMake Error: The current CMakeCache.txt directory /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation/CMakeCache.txt is different than the directory /home/inspacer_logger/simulation_ws/build/deepracer_simulation where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.036s] CMake Error: The source directory "/home/inspace/dr_logger/simulation_ws/src/deepracer_simulation" does not exist.
+[0.036s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.037s] Makefile:1272: recipe for target 'cmake_check_build_system' failed
+[0.037s] make: *** [cmake_check_build_system] Error 1
+[0.215s] Invoked command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation' returned '2': /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation -- -j16 -l16

@@ -1,0 +1,22 @@
+[0.209s] Invoking command in '/home/inspacehj/dr_logger/simulation_ws/src/sagemaker_rl_agent': PYTHONPATH=/home/inspacehj/dr_logger/simulation_ws/install/sagemaker_rl_agent/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sagemaker_rl_agent build --build-base /home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/build install --prefix /home/inspacehj/dr_logger/simulation_ws/install/sagemaker_rl_agent --record /home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/install.log --single-version-externally-managed
+[0.389s] running egg_info
+[0.390s] writing ../../build/sagemaker_rl_agent/sagemaker_rl_agent.egg-info/PKG-INFO
+[0.390s] writing dependency_links to ../../build/sagemaker_rl_agent/sagemaker_rl_agent.egg-info/dependency_links.txt
+[0.390s] writing entry points to ../../build/sagemaker_rl_agent/sagemaker_rl_agent.egg-info/entry_points.txt
+[0.390s] writing requirements to ../../build/sagemaker_rl_agent/sagemaker_rl_agent.egg-info/requires.txt
+[0.390s] writing top-level names to ../../build/sagemaker_rl_agent/sagemaker_rl_agent.egg-info/top_level.txt
+[0.411s] adding license file 'LICENSE' (matched pattern 'LICEN[CS]E*')
+[0.411s] reading manifest file '../../build/sagemaker_rl_agent/sagemaker_rl_agent.egg-info/SOURCES.txt'
+[0.412s] writing manifest file '../../build/sagemaker_rl_agent/sagemaker_rl_agent.egg-info/SOURCES.txt'
+[0.412s] running build
+[0.413s] running build_py
+[0.413s] running install
+[0.413s] running install_lib
+[0.414s] running install_egg_info
+[0.415s] removing '/home/inspacehj/dr_logger/simulation_ws/install/sagemaker_rl_agent/lib/python3.6/site-packages/sagemaker_rl_agent-0.0.1-py3.6.egg-info' (and everything under it)
+[0.416s] Copying ../../build/sagemaker_rl_agent/sagemaker_rl_agent.egg-info to /home/inspacehj/dr_logger/simulation_ws/install/sagemaker_rl_agent/lib/python3.6/site-packages/sagemaker_rl_agent-0.0.1-py3.6.egg-info
+[0.416s] running install_scripts
+[0.428s] Installing run_local_rl_agent script to /home/inspacehj/dr_logger/simulation_ws/install/sagemaker_rl_agent/bin
+[0.428s] Installing run_rollout_rl_agent script to /home/inspacehj/dr_logger/simulation_ws/install/sagemaker_rl_agent/bin
+[0.429s] writing list of installed files to '/home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/install.log'
+[0.443s] Invoked command in '/home/inspacehj/dr_logger/simulation_ws/src/sagemaker_rl_agent' returned '0': PYTHONPATH=/home/inspacehj/dr_logger/simulation_ws/install/sagemaker_rl_agent/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sagemaker_rl_agent build --build-base /home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/build install --prefix /home/inspacehj/dr_logger/simulation_ws/install/sagemaker_rl_agent --record /home/inspacehj/dr_logger/simulation_ws/build/sagemaker_rl_agent/install.log --single-version-externally-managed

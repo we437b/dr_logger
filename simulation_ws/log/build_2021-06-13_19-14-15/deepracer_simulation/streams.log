@@ -1,0 +1,114 @@
+[0.022s] Invoking command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation': CMAKE_PREFIX_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation -- -j16 -l16
+[0.039s] -- Using CATKIN_DEVEL_PREFIX: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation/devel
+[0.040s] -- Using CMAKE_PREFIX_PATH: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs;/home/inspacehj/drone_mpc_ws/devel;/home/inspacehj/autosim_ws/devel;/home/inspacehj/catkin_ws/devel;/home/inspacehj/drone_ws/devel;/opt/ros/melodic
+[0.040s] -- This workspace overlays: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs;/home/inspacehj/drone_mpc_ws/devel;/home/inspacehj/autosim_ws/devel;/home/inspacehj/catkin_ws/devel;/home/inspacehj/drone_ws/devel;/opt/ros/melodic
+[0.049s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.049s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.049s] -- Using Debian Python package layout
+[0.049s] -- Using empy: /usr/bin/empy
+[0.153s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.153s] -- Call enable_testing()
+[0.153s] -- Using CATKIN_TEST_RESULTS_DIR: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation/test_results
+[0.167s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.167s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.176s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[0.179s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[0.207s] -- catkin 0.7.29
+[0.208s] -- BUILD_SHARED_LIBS is on
+[0.331s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[0.501s] -- Configuring done
+[0.520s] -- Generating done
+[0.526s] -- Build files have been written to: /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation
+[0.544s] Invoked command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation' returned '0': CMAKE_PREFIX_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation -- -j16 -l16
+[0.592s] Invoking command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation': CMAKE_PREFIX_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation --target tests -- -j16 -l16
+[0.648s] Built target tests
+[0.666s] Invoked command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation' returned '0': CMAKE_PREFIX_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation --target tests -- -j16 -l16
+[0.863s] Invoking command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation': CMAKE_PREFIX_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation --target install -- -j16 -l16
+[0.967s] [36mInstall the project...[0m
+[0.982s] -- Install configuration: ""
+[0.983s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/pkgconfig/deepracer_simulation.pc
+[0.983s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/cmake/deepracer_simulationConfig.cmake
+[0.983s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/cmake/deepracer_simulationConfig-version.cmake
+[0.984s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/package.xml
+[0.985s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/servo_commands.py
+[0.985s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/run_local_rl_agent.sh
+[0.985s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/run_rollout_rl_agent.sh
+[0.986s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/run_evaluation_rl_agent.sh
+[0.986s] -- Installing: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/key_control.py
+[0.986s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/lib/deepracer_simulation/logger.py
+[0.986s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch
+[0.986s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/racecar_control.launch
+[0.986s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/distributed_training.launch
+[0.986s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/racetrack_with_racecar.launch
+[0.986s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/local_training.launch
+[0.986s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/racecar.launch
+[0.986s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/logger.launch
+[0.986s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/launch/evaluation.launch
+[0.986s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/config
+[0.986s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/config/racecar_control.yaml
+[0.986s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes
+[0.987s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/boundary_lines.png
+[0.987s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_steering_hinge.dae
+[0.987s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/cone.dae
+[0.987s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/CarAO.jpg
+[0.987s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hokuyo.dae
+[0.987s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track
+[0.987s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/Track3_and_Wall.dae
+[0.987s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/SolidLine_DIFF.png
+[0.987s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/Astroturf_Gray_DIFF.png
+[0.987s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/Grass_DIFF.png
+[0.987s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/walls.jpg
+[0.987s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/Track3_and_wall.blend
+[0.987s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/hard_track/DashedLine_DIFF.png
+[0.988s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_front_wheel.dae
+[0.988s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_steering_hinge.STL
+[0.988s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_front_wheel.dae
+[0.989s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/aws_DIFF.jpg
+[0.989s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_rear_wheel.STL
+[0.989s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/medium_track
+[0.989s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/medium_track/scripts
+[0.989s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/medium_track/scripts/medium_track.material
+[0.989s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/medium_track/textures
+[0.990s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/medium_track/textures/medium_track.png
+[0.990s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/polymsh_detached4.jpg
+[0.990s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_rear_wheel.dae
+[0.990s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_front_wheel.STL
+[0.990s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/parking_1.dae
+[0.990s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/racetrack.world
+[0.990s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/center_line.png
+[0.990s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/chassis.dae
+[0.990s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/baseboard_checkers.jpg
+[0.991s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_rear_wheel.STL
+[0.991s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_rear_wheel.dae
+[0.991s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_front_wheel.STL
+[0.991s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/right_steering_hinge.STL
+[0.991s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/easy_track
+[0.991s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/easy_track/scripts
+[0.991s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/easy_track/scripts/easy_track.material
+[0.991s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/easy_track/textures
+[0.991s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/easy_track/textures/easy_track.jpg
+[0.991s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/checkers_DIFF.jpg
+[0.991s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/chassis.STL
+[0.991s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/ground_plane_tex.png
+[0.991s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/left_steering_hinge.dae
+[0.991s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/meshes/Polygon.jpg
+[0.991s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models
+[0.991s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/hard_track
+[0.991s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/hard_track/model.sdf
+[0.991s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/hard_track/model.config
+[0.991s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/medium_track
+[0.992s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/medium_track/model.sdf
+[0.992s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/medium_track/model.config
+[0.992s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/easy_track
+[0.992s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/easy_track/model.sdf
+[0.992s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/models/easy_track/model.config
+[0.992s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/urdf
+[0.992s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/urdf/materials.xacro
+[0.992s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/urdf/racecar.gazebo
+[0.992s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/urdf/racecar.xacro
+[0.992s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/urdf/macros.xacro
+[0.992s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/worlds
+[0.992s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/worlds/hard_track.world
+[0.992s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/worlds/medium_track.world
+[0.992s] -- Up-to-date: /home/inspacehj/dr_logger/simulation_ws/install/deepracer_simulation/share/deepracer_simulation/worlds/easy_track.world
+[0.992s] Invoked command in '/home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation' returned '0': CMAKE_PREFIX_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/inspacehj/dr_logger/simulation_ws/build/deepracer_simulation --target install -- -j16 -l16

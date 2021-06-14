@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/deepracer_msgs_generate_messages_lisp"
   "devel/share/common-lisp/ros/deepracer_msgs/msg/Progress.lisp"
+  "devel/share/common-lisp/ros/deepracer_msgs/msg/Control_input.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

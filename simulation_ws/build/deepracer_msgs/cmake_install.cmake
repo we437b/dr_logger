@@ -1,8 +1,8 @@
-# Install script for directory: /home/inspace/dr_logger/simulation_ws/src/deepracer_msgs
+# Install script for directory: /home/inspacehj/dr_logger/simulation_ws/src/deepracer_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/inspacer_logger/simulation_ws/install/deepracer_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/inspacehj/dr_logger/simulation_ws/install/deepracer_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,59 +38,62 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/deepracer_msgs/msg" TYPE FILE FILES "/home/inspacer_logger/simulation_ws/src/deepracer_msgs/msg/Progress.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/deepracer_msgs/cmake" TYPE FILE FILES "/home/inspacer_logger/simulation_ws/build/deepracer_msgs/catkin_generated/installspace/deepracer_msgs-msg-paths.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/inspacer_logger/simulation_ws/build/deepracer_msgs/devel/include/deepracer_msgs")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/inspacer_logger/simulation_ws/build/deepracer_msgs/devel/share/roseus/ros/deepracer_msgs")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/inspacer_logger/simulation_ws/build/deepracer_msgs/devel/share/common-lisp/ros/deepracer_msgs")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/inspacer_logger/simulation_ws/build/deepracer_msgs/devel/share/gennodejs/ros/deepracer_msgs")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/inspacer_logger/simulation_ws/build/deepracer_msgs/devel/lib/python2.7/dist-packages/deepracer_msgs")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/inspacer_logger/simulation_ws/build/deepracer_msgs/devel/lib/python2.7/dist-packages/deepracer_msgs")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/inspacer_logger/simulation_ws/build/deepracer_msgs/catkin_generated/installspace/deepracer_msgs.pc")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/deepracer_msgs/cmake" TYPE FILE FILES "/home/inspacer_logger/simulation_ws/build/deepracer_msgs/catkin_generated/installspace/deepracer_msgs-msg-extras.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/deepracer_msgs/cmake" TYPE FILE FILES
-    "/home/inspacer_logger/simulation_ws/build/deepracer_msgs/catkin_generated/installspace/deepracer_msgsConfig.cmake"
-    "/home/inspacer_logger/simulation_ws/build/deepracer_msgs/catkin_generated/installspace/deepracer_msgsConfig-version.cmake"
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/deepracer_msgs/msg" TYPE FILE FILES
+    "/home/inspacehj/dr_logger/simulation_ws/src/deepracer_msgs/msg/Progress.msg"
+    "/home/inspacehj/dr_logger/simulation_ws/src/deepracer_msgs/msg/Control_input.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/deepracer_msgs" TYPE FILE FILES "/home/inspacer_logger/simulation_ws/src/deepracer_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/deepracer_msgs/cmake" TYPE FILE FILES "/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/catkin_generated/installspace/deepracer_msgs-msg-paths.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/devel/include/deepracer_msgs")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/devel/share/roseus/ros/deepracer_msgs")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/devel/share/common-lisp/ros/deepracer_msgs")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/devel/share/gennodejs/ros/deepracer_msgs")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/devel/lib/python2.7/dist-packages/deepracer_msgs")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/devel/lib/python2.7/dist-packages/deepracer_msgs")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/catkin_generated/installspace/deepracer_msgs.pc")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/deepracer_msgs/cmake" TYPE FILE FILES "/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/catkin_generated/installspace/deepracer_msgs-msg-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/deepracer_msgs/cmake" TYPE FILE FILES
+    "/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/catkin_generated/installspace/deepracer_msgsConfig.cmake"
+    "/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/catkin_generated/installspace/deepracer_msgsConfig-version.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/deepracer_msgs" TYPE FILE FILES "/home/inspacehj/dr_logger/simulation_ws/src/deepracer_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/inspacer_logger/simulation_ws/build/deepracer_msgs/gtest/cmake_install.cmake")
+  include("/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/gtest/cmake_install.cmake")
 
 endif()
 
@@ -102,5 +105,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/inspacer_logger/simulation_ws/build/deepracer_msgs/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/inspacehj/dr_logger/simulation_ws/build/deepracer_msgs/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
